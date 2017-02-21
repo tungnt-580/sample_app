@@ -20,4 +20,29 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      footer_left: "The %{tut_book}  by %{tut_author}"
+      book_display: "Ruby on Rails Tutorial"
+      auth_display: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+      app_name: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+  static_pages:
+    home: 
+      welcome: "Welcome to the Sample App"
+      introduce: "This is the home page for the %{tut_book} sample application."
+      book_display: "Ruby on Rails Tutorial"
+      signup: "Sign up now"
+      logo: "Rails logo"
+  users:
+    new:
+      signup: "Sign up"
+      introduce: "This will be a signup page for new users."
