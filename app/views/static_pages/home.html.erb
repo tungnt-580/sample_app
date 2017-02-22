@@ -1,10 +1,9 @@
 <div class="center jumbotron">
   <h1><%= t ".welcome" %></h1>
   <h2>
-    <%= t(
-      ".introduce",
+    <%= t(".introduce",
       tut_book: link_to(t(".book_display"), ApplicationHelper::TUT_LINK),
-    ).html_safe%>
+    ).html_safe %>
   </h2>
   <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
