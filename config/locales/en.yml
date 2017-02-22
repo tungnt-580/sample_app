@@ -46,3 +46,15 @@ en:
     new:
       signup: "Sign up"
       introduce: "This will be a signup page for new users."
+      create_btn: "Create my account"
+      confirm: "Confirmation"
+    create:
+      welcome: "Welcome to the Sample App"
+      form_contain: "The form contains "
+      error: "error"
+    show:
+      not_found: "404 Not Found"
+  shared:
+    error_messages:
+      form_contain: "The form contains "
+      error: "error"
