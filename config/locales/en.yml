@@ -64,6 +64,8 @@ en:
       signup: "Sign up now!"
       login: "Login"
       log_in: "Log in"
+      remember_me: "Remember me on this computer"
+      new_user: "New user?"
     create: 
       invalid_message: "Invalid email/password combination"
   shared:
