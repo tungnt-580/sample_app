@@ -35,6 +35,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      account: "Account"
   static_pages:
     home: 
       welcome: "Welcome to the Sample App"
@@ -54,6 +59,13 @@ en:
       error: "error"
     show:
       not_found: "404 Not Found"
+  sessions: 
+    new:
+      signup: "Sign up now!"
+      login: "Login"
+      log_in: "Log in"
+    create: 
+      invalid_message: "Invalid email/password combination"
   shared:
     error_messages:
       form_contain: "The form contains "
