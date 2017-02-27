@@ -13,10 +13,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = t ".welcome"
       redirect_to @user
     else
-      flash[:danger] = t(".form_contain")  + pluralize(@user.errors.count, t(".error"))
+      flash.now[:danger] = t(".form_contain")  + pluralize(@user.errors.count, t(".error"))
       render :new
     end
   end
