@@ -48,6 +48,12 @@ en:
       signup: "Sign up now"
       logo: "Rails logo"
   users:
+    form_contain: "The form contains "
+    error: "error"
+    please_login: "Please log in."
+    index:
+      all_users: "All users"
+      introduce: "All users"
     new:
       signup: "Sign up"
       introduce: "This will be a signup page for new users."
@@ -55,10 +61,21 @@ en:
       confirm: "Confirmation"
     create:
       welcome: "Welcome to the Sample App"
-      form_contain: "The form contains "
-      error: "error"
     show:
       not_found: "404 Not Found"
+    edit:
+      edit_user: "Edit user"
+      introduce: "Update your profile"
+      confirmation: "Confirmation"
+      save_btn: "Save changes"
+      change: "Change"
+    update:
+      updated: "Profile updated"
+    destroy:
+      deleted_notice: "User deleted"
+    user: 
+      confirm: "You sure?"
+      delete: delete
   sessions: 
     new:
       signup: "Sign up now!"

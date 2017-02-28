@@ -1,3 +1,9 @@
-name_max_length: 50
-email_max_length: 255
-password_min_length: 6
+validates:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+  password:
+    min_length: 6
+gravatar_size: 50
+gravatar_default_size: 80
