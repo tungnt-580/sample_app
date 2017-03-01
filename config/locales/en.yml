@@ -60,7 +60,7 @@ en:
       create_btn: "Create my account"
       confirm: "Confirmation"
     create:
-      welcome: "Welcome to the Sample App"
+      checkmail_notice: "Please check your email to active your account"
     show:
       not_found: "404 Not Found"
     edit:
@@ -75,7 +75,7 @@ en:
       deleted_notice: "User deleted"
     user: 
       confirm: "You sure?"
-      delete: delete
+      delete: "delete"
   sessions: 
     new:
       signup: "Sign up now!"
@@ -84,7 +84,21 @@ en:
       remember_me: "Remember me on this computer"
       new_user: "New user?"
     create: 
+      not_activated_message: "Account not activated. Check your email for the activation link."
       invalid_message: "Invalid email/password combination"
+  user_mailer:
+    hi: "Hi"
+    account_activation:
+      app_name: "Sample App"
+      welcome: "Welcome to Sample App"
+      active: "Activate"
+      activation_subject: "Activate your SampleApp's account"
+    password_reset:
+      password_reset_title: "User#Password_reset"
+  account_activations:
+    edit:
+      invalid_activation: "Invalid activation link"
+      activated_account: "Account activated!"
   shared:
     error_messages:
       form_contain: "The form contains "
