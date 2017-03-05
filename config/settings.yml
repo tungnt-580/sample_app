@@ -5,5 +5,11 @@ validates:
     max_length: 255
   password:
     min_length: 6
+  content:
+    max_length: 140
+limit_size:
+  width: 400
+  height: 400
 gravatar_size: 50
 gravatar_default_size: 80
+max_size_in_mb:  5

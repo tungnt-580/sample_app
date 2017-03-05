@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  application: 
+    please_login: "Please log in."
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -47,10 +49,10 @@ en:
       book_display: "Ruby on Rails Tutorial"
       signup: "Sign up now"
       logo: "Rails logo"
+      micropost_feed: "Micropost Feed"
   users:
     form_contain: "The form contains "
     error: "error"
-    please_login: "Please log in."
     index:
       all_users: "All users"
       introduce: "All users"
@@ -87,6 +89,15 @@ en:
     create: 
       not_activated_message: "Account not activated. Check your email for the activation link."
       invalid_message: "Invalid email/password combination"
+  microposts:
+    micropost:
+      posted_time: "Posted %{time} ago."
+      delete: "delete"
+      confirm_delete: "You sure?"
+    create:
+      created_notice: "Micropost created!"
+    destroy: 
+      delete: "Micropost deleted!"
   password_resets:
     expired_notice: "Password reset has expired."
     new:
@@ -125,3 +136,9 @@ en:
     error_messages:
       form_contain: "The form contains "
       error: "error"
+    user_info:
+      user_link: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      micropost_holder: "Compose new micropost..."
+      post_btn: "Post"

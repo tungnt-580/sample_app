@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page]
   end
     
   def new
@@ -57,14 +58,6 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     raise ActionController::RoutingError.new(t ".not_found") if @user.nil? 
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t ".please_login"
-      redirect_to login_url
-    end
   end
 
   def correct_user
