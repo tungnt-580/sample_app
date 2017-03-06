@@ -78,6 +78,10 @@ en:
     user: 
       confirm: "You sure?"
       delete: "delete"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   sessions: 
     new:
       signup: "Sign up now!"
@@ -142,3 +146,12 @@ en:
     micropost_form:
       micropost_holder: "Compose new micropost..."
       post_btn: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
+    show_follow:
+      no_follow: "You haven't had any %{follow_}."
+  following:
+    following: "following"
+  followers:
+    followers: "followers"
