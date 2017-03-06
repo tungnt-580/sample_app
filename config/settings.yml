@@ -10,6 +10,8 @@ validates:
 limit_size:
   width: 400
   height: 400
-gravatar_size: 50
-gravatar_default_size: 80
+gravatar_size:
+  small: 30
+  medium: 50
+  large: 80
 max_size_in_mb:  5
